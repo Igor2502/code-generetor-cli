@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --no-cahe --watch --config jest.config.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch --config jest.config.js",
     "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.js --coverage"
   },
   "keywords": [],
